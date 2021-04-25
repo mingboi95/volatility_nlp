@@ -12,4 +12,4 @@ Group 5 - Predicting the Stock Market using Twitter NLP and Sentiment Analysis
 **README**
 - `code` is our final code for modelling 
 - `scrape_twitter` is our code for scraping Twitter data
-- Demo folder contains our deliverable, with `demo` showing how to utilise the code for your own needs. Please ensure all files other files in the folder are in the same directory as `demo`, and the environment is setup with `environments.yml` or `requirements.txt` Crucially, Theano backend for Keras must be enabled.
+- Demo folder contains our deliverable, with `demo` showing how to utilise the code for your own needs. Please ensure all other files in the folder are in the same directory as `demo`, and the environment is setup with preferably `environments.yml` or `requirements.txt`. Crucially, Theano backend for Keras must be enabled.
