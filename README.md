@@ -24,7 +24,6 @@ Please ensure all other files in the folder are in the same directory as `demo`,
 Conda with `environments.yml` (preferred)
 ```
 conda env create -f environment.yml
-conda activate myenv
 ```
 
 Pip with `requirements.txt`
@@ -37,7 +36,7 @@ pip install -r requirements.txt
 
 Conda
 ```bash
-conda activate myenv
+conda activate bt4222
 ```
 
 Pip
