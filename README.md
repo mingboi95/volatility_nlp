@@ -10,8 +10,8 @@ Group 5 - Predicting the Stock Market using Twitter NLP and Sentiment Analysis
 
 
 ## README
-- Demo folder contains `code`, our final code for modelling 
-- Demo folder also contains our deliverable, with `demo` showing how to utilise the code for your own needs
+- Demo folder contains our final code for modelling `code` 
+- Demo folder also contains our deliverable `demo` showing how to utilise the code for your own needs
 - `scrape_twitter` is our code for scraping Twitter data
 
 
@@ -30,7 +30,7 @@ conda activate myenv
 Pip with `requirements.txt`
 ```bash
 python3 -m venv /path/to/new/virtual/environment
-pip install -r requirements.txt --upgrade
+pip install -r requirements.txt
 ```
 
 2) Activate the virtual environment in your project directory in your terminal 
@@ -41,7 +41,7 @@ conda activate myenv
 ```
 
 Pip
-```
+```bash
 $ C:\Users\...\project_folder> venv\Scripts\activate
 ```
 
