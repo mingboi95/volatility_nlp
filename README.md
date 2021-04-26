@@ -1,7 +1,7 @@
 # BT4222 - Applied Machine Learning
 Group 5 - Predicting the Stock Market using Twitter NLP and Sentiment Analysis
 
-**Contributors** 
+## Contributors
 1. [Clara](https://www.github.com/claratay)
 2. [Glenn](https://www.github.com/glennljs) 
 3. [Brian](https://www.github.com/wongchunghowbrian)
@@ -9,7 +9,42 @@ Group 5 - Predicting the Stock Market using Twitter NLP and Sentiment Analysis
 5. [Yang Ming](https://www.github.com/glennljs)
 
 
-**README**
+## README
 - `code` is our final code for modelling 
 - `scrape_twitter` is our code for scraping Twitter data
-- Demo folder contains our deliverable, with `demo` showing how to utilise the code for your own needs. Please ensure all other files in the folder are in the same directory as `demo`, and the environment is setup with preferably `environments.yml` or `requirements.txt`. Crucially, Theano backend for Keras must be enabled.
+- Demo folder contains our deliverable, with `demo` showing how to utilise the code for your own needs
+
+
+## Setup
+Please ensure all other files in the folder are in the same directory as `demo`, and the environment is setup with preferably `environments.yml` or `requirements.txt`. Crucially, Theano backend for Keras must be enabled.
+
+1) Create a [virtual environment](https://docs.python.org/3/library/venv.html) within your project directory. Setup the environment:
+
+Conda with `environments.yml` (preferred)
+```
+conda env create -f environment.yml
+conda activate myenv
+```
+
+Pip with `requirements.txt`
+```bash
+python3 -m venv /path/to/new/virtual/environment
+pip install -r requirements.txt --upgrade
+```
+
+2) Activate the virtual environment in your project directory in your terminal 
+
+Conda
+```bash
+conda activate myenv
+```
+
+Pip
+```
+$ C:\Users\...\project_folder> venv\Scripts\activate
+```
+
+3) Clone repository:
+```bash
+git clone https://github.com/mingboi95/bt4222.git
+```
