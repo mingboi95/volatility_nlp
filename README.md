@@ -10,7 +10,7 @@ Group 5 - Predicting the Stock Market using Twitter NLP and Sentiment Analysis
 
 
 ## README
-- Demo folder contains our final code for modelling `code` 
+- Demo folder contains our final `code` for modelling
 - Demo folder also contains our deliverable `demo` showing how to utilise the code for your own needs
 - `scrape_twitter` is our code for scraping Twitter data
 
