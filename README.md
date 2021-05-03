@@ -25,7 +25,6 @@ Conda with `environments.yml` (preferred)
 ```
 conda env create -f environment.yml
 conda activate bt4222
-
 ```
 
 Pip with `requirements.txt`
