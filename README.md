@@ -19,32 +19,23 @@ Group 5 - Predicting the Stock Market using Twitter NLP and Sentiment Analysis
 ## Setup
 Please ensure all other files in the folder are in the same directory as `demo`, and the environment is setup with preferably `environments.yml` or `requirements.txt`. Crucially, Theano backend for Keras must be enabled.
 
-1) Create a [virtual environment](https://docs.python.org/3/library/venv.html) within your project directory. Setup the environment:
+1) Create a [virtual environment](https://docs.python.org/3/library/venv.html) within your project directory. Setup the environment and activate it in your terminal:
 
 Conda with `environments.yml` (preferred)
 ```
 conda env create -f environment.yml
+conda activate bt4222
+
 ```
 
 Pip with `requirements.txt`
 ```bash
 python3 -m venv /path/to/new/virtual/environment
 pip install -r requirements.txt
-```
-
-2) Activate the virtual environment in your project directory in your terminal 
-
-Conda
-```bash
-conda activate bt4222
-```
-
-Pip
-```bash
 $ C:\Users\...\project_folder> venv\Scripts\activate
 ```
 
-3) Clone repository:
+2) Clone repository:
 ```bash
 git clone https://github.com/mingboi95/bt4222.git
 ```
