@@ -1,5 +1,7 @@
-# Price Volatility Prediction with Natural Language Processing and Sentiment Analysis
-Sentiment analysis and feature engineering is achieved through:
+# Stock Market Price Volatility Prediction
+## Using Natural Language Processing and Sentiment Analysis techniques
+
+Feature engineering is achieved through Sentiment Analysis techniques:
 - Augmented VADER with Loughan-Mcdonald Financial Sentiment dictionary for the finance-focused slant of our social media tweets
 - Bidirectional RNN with character-level embeddings (Colneric and Demsar - 2018) to handle OOV hashtags and words problem in social media tweets
 
@@ -10,11 +12,6 @@ Automatic feature and model selection modules has been implemented, achieved thr
 | Accuracy    | 0.6154         | 0.6603   | 0.7051   |
 | F1-Weighted | 0.6041         | 0.5812   | 0.5864   |
 | F2-Weighted | 0.6105         | 0.6244   | 0.6515   |
-
-## README
-- `code` contains the notebook for preprocessing, sentiment analysis and modelling
-- `demo` contains our deliverable showing how to utilise the code for your own needs
-- `scrape_twitter` is our code for scraping Twitter data
 
 ## Project Structure 
 ```
@@ -28,6 +25,10 @@ volatility_nlp/
 ┣ emotion_predictor.py
 ┗ utils.py
 ```
+- `code` contains the notebook for preprocessing, sentiment analysis and modelling
+- `demo` contains our deliverable showing how to utilise the code for your own needs
+- `scrape/scrape_twitter` is our code for scraping Twitter data
+
 ## Setup
 Please ensure all other files in the folder are in the same directory as `demo`, and the environment is setup with preferably `environments.yml` or `requirements.txt`. Crucially, Theano backend for Keras must be enabled.
 
