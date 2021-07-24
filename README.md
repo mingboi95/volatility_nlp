@@ -1,11 +1,13 @@
 # Stock Market Price Volatility Prediction
-## Using Natural Language Processing and Sentiment Analysis techniques
+## Using Natural Language Processing and sentiment analysis techniques
 
-Feature engineering is achieved through Sentiment Analysis techniques:
-- Augmented VADER with Loughan-Mcdonald Financial Sentiment dictionary for the finance-focused slant of our social media tweets
+Feature engineering is achieved through sentiment analysis techniques:
+- Augmented VADER with Loughan-Mcdonald financial sentiment dictionary for the finance-focused slant of our social media tweets
 - Bidirectional RNN with character-level embeddings (Colneric and Demsar - 2018) to handle OOV hashtags and words problem in social media tweets
 
-Automatic feature and model selection modules has been implemented, achieved through Granger causality analysis and time-series cross-validation. Modelling is done through traditional models as well as ensembling methods, with model interpreptability handled by SHAP
+Automatic feature and model selection modules has been implemented, this is achieved through Granger causality analysis and time-series cross-validation. 
+
+Modelling is done through traditional models as well as ensembling methods, with model interpretability handled by SHAP
 ## Results
 | Metric      | Sentiment only | VIX only | Combined |
 |-------------|----------------|----------|----------|
