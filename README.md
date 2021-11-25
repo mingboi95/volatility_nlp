@@ -51,7 +51,7 @@ $ C:\Users\...\project_folder> venv\Scripts\activate
 
 2) Clone repository:
 ```bash
-git clone https://github.com/mingboi95/volatility_nlp.git
+git clone https://github.com/mingboiz/volatility_nlp.git
 ```
 
 ## Contributors
@@ -59,4 +59,4 @@ git clone https://github.com/mingboi95/volatility_nlp.git
 2. [Glenn](https://www.github.com/glennljs) 
 3. [Brian](https://www.github.com/wongchunghowbrian)
 4. [Hui Lin](https://www.github.com/huilinloo)
-5. [Yang Ming](https://www.github.com/glennljs)
+5. [Yang Ming](https://www.github.com/mingboiz)
